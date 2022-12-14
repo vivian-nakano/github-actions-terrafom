@@ -19,5 +19,5 @@ jobs:
     - name: Terraform Init
       run: terraform init
 
-    - name: Terraform Apply
-      run: terraform apply -auto-approve ##ncessario colocar para nao dar trigger manual
+##    - name: Terraform Apply
+##      run: terraform apply -auto-approve ##ncessario colocar para nao dar trigger manual
