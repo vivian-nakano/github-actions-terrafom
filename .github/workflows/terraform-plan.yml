@@ -1,5 +1,5 @@
 name: Terraform Plan
-on: workflow_dispatch ##quando terá trigger no workflow ##push: toda vez que tiver push será iniciado
+on: push ##quando terá trigger no workflow ##push: toda vez que tiver push será iniciado
 env: 
   AWS_ACCESS_KEY_ID: ${{secrets.AWS_ACCESS_KEY_ID}}
   AWS_SECRET_ACCESS_KEY: S{{secrets.AWS_SECRET_ACCESS_KEY}}
